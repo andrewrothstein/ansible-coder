@@ -1,0 +1,13 @@
+---
+# vars file for coder
+coder_os: '{{ ansible_system | lower }}'
+coder_arch: '{{ coder_arch_map[ansible_architecture] }}'
+coder_platform: '{{ coder_os }}_{{ coder_arch }}'
+coder_name: coder_{{ coder_ver }}_{{ coder_platform }}
+coder_archive: '{{ coder_name }}.{{ coder_archive_type | default("tar.gz") }}'
+coder_url: '{{ coder_mirror }}/v{{ coder_ver }}/{{ coder_archive }}'
+coder_tmp_archive: '{{ coder_tmp_dir | default("/tmp") }}/{{ coder_archive }}'
+coder_checksum: '{{ coder_checksums[coder_ver][coder_platform] }}'
+coder_install_dir: '{{ coder_parent_install_dir }}/{{ coder_name }}'
+coder_install_exe: '{{ coder_install_dir }}/coder'
+coder_link: '{{ coder_parent_install_dir }}/bin/coder'
