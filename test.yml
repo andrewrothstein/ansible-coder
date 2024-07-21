@@ -1,10 +1,13 @@
 ---
-- hosts: all
+- name: Testing andrewrothstein.coder
+  hosts: all
   roles:
-  - role: '{{ playbook_dir }}'
+    - role: '{{ playbook_dir }}'
   tasks:
-  - command: /usr/local/bin/coder version
-    register: coder_test_output
-  - name: coder version
-    debug:
-      msg: '{{ coder_test_output.stdout }}'
+    - name: Executing 'coder version'
+      ansible.builtin.command: coder version
+      changed_when: false
+      register: coder_test_output
+    - name: Output from 'coder version'
+      ansible.builtin.debug:
+        msg: '{{ coder_test_output.stdout }}'
