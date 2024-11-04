@@ -40,4 +40,4 @@ dl_ver() {
     dl $app $ver $lchecksums windows arm64 zip
 }
 
-dl_ver coder ${1:-2.15.3}
+dl_ver coder ${1:-2.15.4}
