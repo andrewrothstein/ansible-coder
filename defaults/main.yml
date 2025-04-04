@@ -1,6 +1,6 @@
 ---
 # defaults file for coder
-coder_ver: 2.19.1
+coder_ver: 2.20.2
 coder_arch_map:
   aarch64: arm64
   x86_64: amd64
@@ -279,3 +279,19 @@ coder_checksums:
     windows_amd64: sha256:1adba6b6f15da3aa491ba845f4a34a52e3171fa31c95738b6c3cbc426a0f5587
     # https://github.com/coder/coder/releases/download/v2.19.1/coder_2.19.1_windows_arm64.zip
     windows_arm64: sha256:a09215df1de8b59f576809dda8817fea77f39ba81d47a1ee7cc59b1a3ef98a97
+  # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_checksums.txt
+  '2.20.2':
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_darwin_amd64.zip
+    darwin_amd64: sha256:a27d2481bdf5d4b78c39f3ed179f78ed1a2f6b9bc2add36b811e10bef2e0c069
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_darwin_arm64.zip
+    darwin_arm64: sha256:5bd657cd301d7321bb27a81b3fbd52d489f235fbfc62bc1294d2c2b7c85fc152
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_linux_amd64.tar.gz
+    linux_amd64: sha256:414210b9a9541dbd18522d8973237566639fe143bac13deb039ded973aba58a2
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_linux_arm64.tar.gz
+    linux_arm64: sha256:22b9d31a6bdc5f80bd72f7623db9a1c4b758145f8224eac7b3c77d21f8087f39
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_linux_armv7.tar.gz
+    linux_armv7: sha256:2ceabbbe3d6be444366f8b292377be0f908010f04d9d1bb8bdd1f3d40d84e916
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_windows_amd64.zip
+    windows_amd64: sha256:6b828f2294553be4045567d5a40ee904712e6379d895936152042f94d88dbdeb
+    # https://github.com/coder/coder/releases/download/v2.20.2/coder_2.20.2_windows_arm64.zip
+    windows_arm64: sha256:912b568bc796801dbb095000a5434cd35f095aeda523166f30fd97187fdf8280
