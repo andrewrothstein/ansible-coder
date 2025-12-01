@@ -1,7 +1,7 @@
 ---
 # vars file for coder
-coder_os: '{{ ansible_system | lower }}'
-coder_arch: '{{ coder_arch_map[ansible_architecture] }}'
+coder_os: '{{ ansible_facts["system"] | lower }}'
+coder_arch: '{{ coder_arch_map[ansible_facts["architecture"]] }}'
 coder_platform: '{{ coder_os }}_{{ coder_arch }}'
 coder_name: coder_{{ coder_ver }}_{{ coder_platform }}
 coder_archive: '{{ coder_name }}.{{ coder_archive_type | default("tar.gz") }}'
