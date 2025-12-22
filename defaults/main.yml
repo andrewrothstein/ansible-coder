@@ -1,6 +1,6 @@
 ---
 # defaults file for coder
-coder_ver: 2.28.4
+coder_ver: 2.28.6
 coder_arch_map:
   aarch64: arm64
   x86_64: amd64
@@ -887,3 +887,35 @@ coder_checksums:
     windows_amd64: sha256:3324bb8e8afd9bba420d775608cd2d3d9b94a9d6d0b32b0d2a18176d8dd9f022
     # https://github.com/coder/coder/releases/download/v2.28.4/coder_2.28.4_windows_arm64.zip
     windows_arm64: sha256:1f9bba86db6539c35e7006524d0875aa2648ef53053e351711e996e36de89943
+  # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_checksums.txt
+  '2.28.5':
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_darwin_amd64.zip
+    darwin_amd64: sha256:8702edacf6353404607a2433a02f8b885f442edee901888d9e4efaecce23e35b
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_darwin_arm64.zip
+    darwin_arm64: sha256:a08a5527678ca3f89aaccd37ed411a63ff82d740553af6fa3febd795bdefe859
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_linux_amd64.tar.gz
+    linux_amd64: sha256:79530221d5d35abde398961b47dc9ca1d76acacb748a69977d249b79e805370a
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_linux_arm64.tar.gz
+    linux_arm64: sha256:1785a96d9ff0cff4edd5dcc415895c88fa36c8f6c7ee7bfbb0903e7eb21b0250
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_linux_armv7.tar.gz
+    linux_armv7: sha256:d98e56bb42cb5f9ac780860af2db7ece963529ef0aba2852cbe7eea013b6ac0b
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_windows_amd64.zip
+    windows_amd64: sha256:7af735a98e5d213efffd54c41c11bf7c97202c02570f62254708bfe88a789c84
+    # https://github.com/coder/coder/releases/download/v2.28.5/coder_2.28.5_windows_arm64.zip
+    windows_arm64: sha256:ac1ec1f43bf41d4824bffedbdd6da7528b24655e9957ee5f20667ac3e69bafa6
+  # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_checksums.txt
+  '2.28.6':
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_darwin_amd64.zip
+    darwin_amd64: sha256:8b123904fc6aeeca4f935527e9e61591ef88921aa82314ea0d35e8e457a16849
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_darwin_arm64.zip
+    darwin_arm64: sha256:9ebc7467535dce47906de5b3c0e8690132189c20ae706e65291a146915638901
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_linux_amd64.tar.gz
+    linux_amd64: sha256:3819c4391eae342cdfb2758842ea5237d24cca435bae88eb91be6570f5cbd56f
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_linux_arm64.tar.gz
+    linux_arm64: sha256:c3ee4f31f7f5de7529ee3018192425a334a15aa8ec17e34b2908aabb10f4ef07
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_linux_armv7.tar.gz
+    linux_armv7: sha256:9f83d4e5dd6ed52dd71cfcd8601642eb308dd9c73b2328006ae090481c7b830b
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_windows_amd64.zip
+    windows_amd64: sha256:4c814344b290b90eb33a8ee0c19239772592c96ddb8cde0d3aa5e58456870356
+    # https://github.com/coder/coder/releases/download/v2.28.6/coder_2.28.6_windows_arm64.zip
+    windows_arm64: sha256:1980222a6c793dce6efea17f89c602c42ff43b03b07aea0469d9f8900d22e60c
