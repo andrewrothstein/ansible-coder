@@ -1,6 +1,6 @@
 ---
 # defaults file for coder
-coder_ver: 2.34.2
+coder_ver: 2.34.3
 coder_arch_map:
   aarch64: arm64
   x86_64: amd64
@@ -1415,6 +1415,22 @@ coder_checksums:
     windows_amd64: sha256:f07a39ef5e90d0c6b5e676aef9e311fcf122b278b4d59c1e424799b0daa7c1d5
     # https://github.com/coder/coder/releases/download/v2.33.8/coder_2.33.8_windows_arm64.zip
     windows_arm64: sha256:71a60868c523ff89c3a7c59d9f9b6541e2b5054a79d1d1d295bfaa3b8a0ab198
+  # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_checksums.txt
+  '2.33.9':
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_darwin_amd64.zip
+    darwin_amd64: sha256:f67b3e1330cc832a3ece07d0dfcebb0214d0d6a10d3e3b475c2616b663f4d265
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_darwin_arm64.zip
+    darwin_arm64: sha256:e64d7945fd3dfe7fde2af543d15c435965a024aed4d030cd01fd29f76dc118bb
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_linux_amd64.tar.gz
+    linux_amd64: sha256:fd7d7fd7194f57ff3a332017bfb30953c62d11e99135875ab013fa947e7ce833
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_linux_arm64.tar.gz
+    linux_arm64: sha256:e21ad5f6f6be73756f417210da3e82199d7d6450850c4b0785f66efe441f8700
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_linux_armv7.tar.gz
+    linux_armv7: sha256:49d041503edd4e56533f9abac64dbf95ea9630cf9017a4eacffe483e87650086
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_windows_amd64.zip
+    windows_amd64: sha256:835c3adb8c51ebf03a69117c6babc55877e715fa6f290a5c85a8cdfd8ee636d1
+    # https://github.com/coder/coder/releases/download/v2.33.9/coder_2.33.9_windows_arm64.zip
+    windows_arm64: sha256:df50a7a1b1f85feac0508d4743ff5e3e3338f8169b6b1a750bd94d7514d19dce
   # https://github.com/coder/coder/releases/download/v2.34.0/coder_2.34.0_checksums.txt
   '2.34.0':
     # https://github.com/coder/coder/releases/download/v2.34.0/coder_2.34.0_darwin_amd64.zip
@@ -1464,3 +1480,19 @@ coder_checksums:
     # https://github.com/coder/coder/releases/download/v2.34.2/coder_2.34.2_windows_arm64.zip
     windows_arm64: sha256:a475d013f178a87a46b8acfaedf7f52e4601e5514b5fd8fb5fe7ad1bb2c67c62
 
+  # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_checksums.txt
+  '2.34.3':
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_darwin_amd64.zip
+    darwin_amd64: sha256:30924ad0d7971df77f8a998f52b761adc08e02b69f607decabe316ec688b5676
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_darwin_arm64.zip
+    darwin_arm64: sha256:a821ec2b4ccea893bf1026fd69f684c0d89af51fc024c82d46920551f65e6356
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_linux_amd64.tar.gz
+    linux_amd64: sha256:8fbaf9aaea40b23900d75289a5d4c856da205af4b1cf9f6730ab534bdd8d3039
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_linux_arm64.tar.gz
+    linux_arm64: sha256:6af0d403fdd12dca32b7a419dc2965be3369f0eeb983ed0290026330e39528b8
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_linux_armv7.tar.gz
+    linux_armv7: sha256:964a7119f658d13ee193d01958987e1f19d15d01806cc7d419f741010f6e0519
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_windows_amd64.zip
+    windows_amd64: sha256:9b2b61ed48a2be0c3545d2f79f13e89f062cb60996e546d2c284004287a3eb5e
+    # https://github.com/coder/coder/releases/download/v2.34.3/coder_2.34.3_windows_arm64.zip
+    windows_arm64: sha256:2ba758b22bb8b4221661a4b0d52c45c7485b11cd38dc29e62a96efdedd184ac6
