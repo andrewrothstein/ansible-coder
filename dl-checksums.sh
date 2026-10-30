@@ -45,4 +45,4 @@ dl_ver() {
     dl "$app" "$ver" "$lchecksums" windows arm64 zip
 }
 
-dl_ver coder "${1:-2.38.1}"
+dl_ver coder "${1:-2.38.4}"
