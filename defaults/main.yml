@@ -1,6 +1,6 @@
 ---
 # defaults file for coder
-coder_ver: 2.38.10
+coder_ver: 2.38.11
 coder_arch_map:
   aarch64: arm64
   x86_64: amd64
@@ -6088,6 +6088,22 @@ coder_checksums:
     windows_amd64: sha256:40e555401fb791ab6648c00fda0a801b408880ebae2dc8484251d692f6cd6114
     # https://github.com/coder/coder/releases/download/v2.38.10/coder_2.38.10_windows_arm64.zip
     windows_arm64: sha256:458c7b3fd52d5c5ded388c6bbac261c633e77a33121de2172ea862f05ecb6625
+  # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_checksums.txt
+  '2.38.11':
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_darwin_amd64.zip
+    darwin_amd64: sha256:5b75794bcc0ef0a2439e55b355057fcf37134d56b9c29c08d83ac0e5ef6f9e64
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_darwin_arm64.zip
+    darwin_arm64: sha256:3de6b23b77e0343361d05bff9a2a85c316ed59a5d1576f988ecaff1a24cbee50
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_linux_amd64.tar.gz
+    linux_amd64: sha256:64b70b4fd1a726ac77b2abb1713951af1a42d0b3538a619993e66edb7eb3c52c
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_linux_arm64.tar.gz
+    linux_arm64: sha256:c3243d3613270e0df7d7ff05686f00496aafd8de9346ea1453d1849af9981d06
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_linux_armv7.tar.gz
+    linux_armv7: sha256:861a62271f7410f0d232972f43e29ec63e6038ce2aaf00424db54fbfab1aa8a8
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_windows_amd64.zip
+    windows_amd64: sha256:1508e7c0c963232e1f3199cc48f033e58050d787d02dbb236794082373a66b8b
+    # https://github.com/coder/coder/releases/download/v2.38.11/coder_2.38.11_windows_arm64.zip
+    windows_arm64: sha256:ccf413757b805068e84d64f146637adde77d242b8ace5b091227b843179e494e
   # https://github.com/coder/coder/releases/download/v2.39.0/coder_2.39.0_checksums.txt
   '2.39.0':
     # https://github.com/coder/coder/releases/download/v2.39.0/coder_2.39.0_darwin_amd64.zip
